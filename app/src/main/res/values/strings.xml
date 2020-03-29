@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Transfert local</string>
+    <string name="app_id">Identifiant</string>
+    <string name="app_mdp">Mot de passe</string>
+    <string name="app_btn_valider">Valider</string>
+    <string name="app_se_connecter">Se connecter</string>
+    <string name="app_se_deconnecter">Se deconnecter</string>
+    <string name="app_envoi">Envoi</string>
+    <string name="app_retrait">Retrait</string>
+    <string name="app_titre_err_conn">Erreur Connexion</string>
+    <string name="app_msg_err_conn">Identifiant et/ou mot de passe incorrect</string>
+    <string name="app_ok">ok</string>
+    <string name="app_btn_envoi">Envoyer</string>
+
+</resources>

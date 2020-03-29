@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnvoiActivity">
+
+
+    <TextView
+        android:id="@+id/EXPEDITEUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:hint="EXPEDITEUR "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nomexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="Nom :"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/numexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="178dp"
+        android:ems="10"
+        android:hint="Telephone :"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/montantenvoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:hint="Montant :"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/pnomexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Prenom :"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/pnomrecep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="277dp"
+        android:ems="10"
+        android:hint="Prenom :"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/RECEPTEUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="255dp"
+        android:ems="10"
+        android:hint="RECEPTEUR "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nomrecep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="327dp"
+        android:ems="10"
+        android:hint="Nom :"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/numrecep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="375dp"
+        android:ems="10"
+        android:hint="Telephone :"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/envoyer"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:background="@color/colorAccent"
+        android:text="Envoyer" />
+
+</RelativeLayout>
